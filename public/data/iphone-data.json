@@ -1,0 +1,822 @@
+[
+  {
+    "model": "iPhone X",
+    "release_year": 2017,
+    "variants": [
+      {
+        "ram": "3GB",
+        "storage": "64GB",
+        "base_price_idr": 17999999,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2017": 17999999,
+          "2018": 14649000,
+          "2019": 16499000,
+          "2022": 4500000,
+          "2023": 5000000,
+          "2024": 6500000 ,
+          "2025": 4100000
+        }
+      },
+      {
+        "ram": "3GB",
+        "storage": "256GB",
+        "base_price_idr": 15999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2017": 15999000,
+          "2018": 13599150,
+          "2019": 11559277,
+          "2020": 9825386,
+          "2021": 8351578,
+          "2022": 7098841,
+          "2023": 6034015,
+          "2024": 5128913,
+          "2025": 4359576
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone XR",
+    "release_year": 2018,
+    "variants": [
+      {
+        "ram": "3GB",
+        "storage": "64GB",
+        "base_price_idr": 10999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2018": 10999000,
+          "2019": 9349150,
+          "2020": 7946777,
+          "2021": 6754761,
+          "2022": 5741547,
+          "2023": 4880315,
+          "2024": 4148268,
+          "2025": 3526027
+        }
+      },
+      {
+        "ram": "3GB",
+        "storage": "128GB",
+        "base_price_idr": 11999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2018": 11999000,
+          "2019": 10199150,
+          "2020": 8669277,
+          "2021": 7368886,
+          "2022": 6263553,
+          "2023": 5324020,
+          "2024": 4525417,
+          "2025": 3846604
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone XS",
+    "release_year": 2018,
+    "variants": [
+      {
+        "ram": "4GB",
+        "storage": "64GB",
+        "base_price_idr": 17999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2018": 17999000,
+          "2019": 15299150,
+          "2020": 13004277,
+          "2021": 11053636,
+          "2022": 9395590,
+          "2023": 7986252,
+          "2024": 6788314,
+          "2025": 5770067
+        }
+      },
+      {
+        "ram": "4GB",
+        "storage": "256GB",
+        "base_price_idr": 19999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2018": 19999000,
+          "2019": 16999150,
+          "2020": 14449277,
+          "2021": 12281886,
+          "2022": 10439603,
+          "2023": 8873663,
+          "2024": 7542613,
+          "2025": 6411221
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone XS Max",
+    "release_year": 2018,
+    "variants": [
+      {
+        "ram": "4GB",
+        "storage": "64GB",
+        "base_price_idr": 19999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2018": 19999000,
+          "2019": 16999150,
+          "2020": 14449277,
+          "2021": 12281886,
+          "2022": 10439603,
+          "2023": 8873663,
+          "2024": 7542613,
+          "2025": 6411221
+        }
+      },
+      {
+        "ram": "4GB",
+        "storage": "256GB",
+        "base_price_idr": 21999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2018": 21999000,
+          "2019": 18699150,
+          "2020": 15894277,
+          "2021": 13510136,
+          "2022": 11483615,
+          "2023": 9761073,
+          "2024": 8296912,
+          "2025": 7052375
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 11",
+    "release_year": 2019,
+    "variants": [
+      {
+        "ram": "4GB",
+        "storage": "64GB",
+        "base_price_idr": 10999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2019": 10999000,
+          "2020": 9349150,
+          "2021": 7946777,
+          "2022": 6754761,
+          "2023": 5741547,
+          "2024": 4880315,
+          "2025": 4148268
+        }
+      },
+      {
+        "ram": "4GB",
+        "storage": "128GB",
+        "base_price_idr": 11999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2019": 11999000,
+          "2020": 10199150,
+          "2021": 8669277,
+          "2022": 7368886,
+          "2023": 6263553,
+          "2024": 5324020,
+          "2025": 4525417
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 11 Pro",
+    "release_year": 2019,
+    "variants": [
+      {
+        "ram": "4GB",
+        "storage": "64GB",
+        "base_price_idr": 18999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2019": 18999000,
+          "2020": 16149150,
+          "2021": 13726777,
+          "2022": 11667761,
+          "2023": 9917597,
+          "2024": 8429957,
+          "2025": 7165464
+        }
+      },
+      {
+        "ram": "4GB",
+        "storage": "256GB",
+        "base_price_idr": 20999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2019": 20999000,
+          "2020": 17849150,
+          "2021": 15171777,
+          "2022": 12896011,
+          "2023": 10961609,
+          "2024": 9317368,
+          "2025": 7919763
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 11 Pro Max",
+    "release_year": 2019,
+    "variants": [
+      {
+        "ram": "4GB",
+        "storage": "64GB",
+        "base_price_idr": 19999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2019": 19999000,
+          "2020": 16999150,
+          "2021": 14449277,
+          "2022": 12281886,
+          "2023": 10439603,
+          "2024": 8873663,
+          "2025": 7542613
+        }
+      },
+      {
+        "ram": "4GB",
+        "storage": "256GB",
+        "base_price_idr": 21999000,
+        "depreciation_ratio": 0.85,
+        "prices_by_year": {
+          "2019": 21999000,
+          "2020": 18699150,
+          "2021": 15894277,
+          "2022": 13510136,
+          "2023": 11483615,
+          "2024": 9761073,
+          "2025": 8296912
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone SE (2nd Gen)",
+    "release_year": 2020,
+    "variants": [
+      {
+        "ram": "3GB",
+        "storage": "64GB",
+        "base_price_idr": 7499000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2020": 7499000,
+          "2021": 6599120,
+          "2022": 5807226,
+          "2023": 5110359,
+          "2024": 4497116,
+          "2025": 3957462
+        }
+      },
+      {
+        "ram": "3GB",
+        "storage": "128GB",
+        "base_price_idr": 8499000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2020": 8499000,
+          "2021": 7479120,
+          "2022": 6581626,
+          "2023": 5791831,
+          "2024": 5096811,
+          "2025": 4485194
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 12",
+    "release_year": 2020,
+    "variants": [
+      {
+        "ram": "4GB",
+        "storage": "64GB",
+        "base_price_idr": 13999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2020": 13999000,
+          "2021": 12319120,
+          "2022": 10840826,
+          "2023": 9539927,
+          "2024": 8395135,
+          "2025": 7387719
+        }
+      },
+      {
+        "ram": "4GB",
+        "storage": "128GB",
+        "base_price_idr": 14999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2020": 14999000,
+          "2021": 13199120,
+          "2022": 11615226,
+          "2023": 10221399,
+          "2024": 8994831,
+          "2025": 7915451
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 12 Mini",
+    "release_year": 2020,
+    "variants": [
+      {
+        "ram": "4GB",
+        "storage": "64GB",
+        "base_price_idr": 12999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2020": 12999000,
+          "2021": 11439120,
+          "2022": 10066426,
+          "2023": 8858455,
+          "2024": 7795440,
+          "2025": 6859987
+        }
+      },
+      {
+        "ram": "4GB",
+        "storage": "128GB",
+        "base_price_idr": 13999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2020": 13999000,
+          "2021": 12319120,
+          "2022": 10840826,
+          "2023": 9539927,
+          "2024": 8395135,
+          "2025": 7387719
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 12 Pro",
+    "release_year": 2020,
+    "variants": [
+      {
+        "ram": "6GB",
+        "storage": "128GB",
+        "base_price_idr": 18999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2020": 18999000,
+          "2021": 16719120,
+          "2022": 14712826,
+          "2023": 12947287,
+          "2024": 11393612,
+          "2025": 10026379
+        }
+      },
+      {
+        "ram": "6GB",
+        "storage": "256GB",
+        "base_price_idr": 20999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2020": 20999000,
+          "2021": 18479120,
+          "2022": 16261626,
+          "2023": 14310231,
+          "2024": 12593003,
+          "2025": 11081843
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 12 Pro Max",
+    "release_year": 2020,
+    "variants": [
+      {
+        "ram": "6GB",
+        "storage": "128GB",
+        "base_price_idr": 19999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2020": 19999000,
+          "2021": 17599120,
+          "2022": 15487226,
+          "2023": 13628759,
+          "2024": 11993308,
+          "2025": 10554111
+        }
+      },
+      {
+        "ram": "6GB",
+        "storage": "256GB",
+        "base_price_idr": 21999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2020": 21999000,
+          "2021": 19359120,
+          "2022": 17036026,
+          "2023": 14991703,
+          "2024": 13192698,
+          "2025": 11609574
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 13",
+    "release_year": 2021,
+    "variants": [
+      {
+        "ram": "4GB",
+        "storage": "128GB",
+        "base_price_idr": 14999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2021": 14999000,
+          "2022": 13199120,
+          "2023": 11615226,
+          "2024": 10221399,
+          "2025": 8994831
+        }
+      },
+      {
+        "ram": "4GB",
+        "storage": "256GB",
+        "base_price_idr": 16999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2021": 16999000,
+          "2022": 14959120,
+          "2023": 13164026,
+          "2024": 11584343,
+          "2025": 10194221
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 13 Mini",
+    "release_year": 2021,
+    "variants": [
+      {
+        "ram": "4GB",
+        "storage": "128GB",
+        "base_price_idr": 13999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2021": 13999000,
+          "2022": 12319120,
+          "2023": 10840826,
+          "2024": 9539927,
+          "2025": 8395135
+        }
+      },
+      {
+        "ram": "4GB",
+        "storage": "256GB",
+        "base_price_idr": 15999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2021": 15999000,
+          "2022": 14079120,
+          "2023": 12389626,
+          "2024": 10902871,
+          "2025": 9594526
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 13 Pro",
+    "release_year": 2021,
+    "variants": [
+      {
+        "ram": "6GB",
+        "storage": "128GB",
+        "base_price_idr": 18999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2021": 18999000,
+          "2022": 16719120,
+          "2023": 14712826,
+          "2024": 12947287,
+          "2025": 11393612
+        }
+      },
+      {
+        "ram": "6GB",
+        "storage": "256GB",
+        "base_price_idr": 20999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2021": 20999000,
+          "2022": 18479120,
+          "2023": 16261626,
+          "2024": 14310231,
+          "2025": 12593003
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 13 Pro Max",
+    "release_year": 2021,
+    "variants": [
+      {
+        "ram": "6GB",
+        "storage": "128GB",
+        "base_price_idr": 19999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2021": 19999000,
+          "2022": 17599120,
+          "2023": 15487226,
+          "2024": 13628759,
+          "2025": 11993308
+        }
+      },
+      {
+        "ram": "6GB",
+        "storage": "256GB",
+        "base_price_idr": 21999000,
+        "depreciation_ratio": 0.88,
+        "prices_by_year": {
+          "2021": 21999000,
+          "2022": 19359120,
+          "2023": 17036026,
+          "2024": 14991703,
+          "2025": 13192698
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone SE (3rd Gen)",
+    "release_year": 2022,
+    "variants": [
+      {
+        "ram": "4GB",
+        "storage": "64GB",
+        "base_price_idr": 7999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2022": 7999000,
+          "2023": 7359080,
+          "2024": 6770354,
+          "2025": 6228725
+        }
+      },
+      {
+        "ram": "4GB",
+        "storage": "128GB",
+        "base_price_idr": 8999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2022": 8999000,
+          "2023": 8279080,
+          "2024": 7616754,
+          "2025": 7007413
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 14",
+    "release_year": 2022,
+    "variants": [
+      {
+        "ram": "6GB",
+        "storage": "128GB",
+        "base_price_idr": 15999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2022": 15999000,
+          "2023": 14719080,
+          "2024": 13541554,
+          "2025": 12458229
+        }
+      },
+      {
+        "ram": "6GB",
+        "storage": "256GB",
+        "base_price_idr": 17999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2022": 17999000,
+          "2023": 16559080,
+          "2024": 15234354,
+          "2025": 14015605
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 14 Plus",
+    "release_year": 2022,
+    "variants": [
+      {
+        "ram": "6GB",
+        "storage": "128GB",
+        "base_price_idr": 17999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2022": 17999000,
+          "2023": 16559080,
+          "2024": 15234354,
+          "2025": 14015605
+        }
+      },
+      {
+        "ram": "6GB",
+        "storage": "256GB",
+        "base_price_idr": 19999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2022": 19999000,
+          "2023": 18399080,
+          "2024": 16927154,
+          "2025": 15572981
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 14 Pro",
+    "release_year": 2022,
+    "variants": [
+      {
+        "ram": "6GB",
+        "storage": "128GB",
+        "base_price_idr": 19999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2022": 19999000,
+          "2023": 18399080,
+          "2024": 16927154,
+          "2025": 15572981
+        }
+      },
+      {
+        "ram": "6GB",
+        "storage": "256GB",
+        "base_price_idr": 21999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2022": 21999000,
+          "2023": 20239080,
+          "2024": 18619954,
+          "2025": 17130357
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 14 Pro Max",
+    "release_year": 2022,
+    "variants": [
+      {
+        "ram": "6GB",
+        "storage": "128GB",
+        "base_price_idr": 21499000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2022": 21499000,
+          "2023": 19779080,
+          "2024": 18196754,
+          "2025": 16741013
+        }
+      },
+      {
+        "ram": "6GB",
+        "storage": "256GB",
+        "base_price_idr": 23499000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2022": 23499000,
+          "2023": 21619080,
+          "2024": 19889554,
+          "2025": 18298389
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 15",
+    "release_year": 2023,
+    "variants": [
+      {
+        "ram": "6GB",
+        "storage": "128GB",
+        "base_price_idr": 16999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2023": 16999000,
+          "2024": 15639080,
+          "2025": 14387954
+        }
+      },
+      {
+        "ram": "6GB",
+        "storage": "256GB",
+        "base_price_idr": 18999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2023": 18999000,
+          "2024": 17479080,
+          "2025": 16080754
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 15 Plus",
+    "release_year": 2023,
+    "variants": [
+      {
+        "ram": "6GB",
+        "storage": "128GB",
+        "base_price_idr": 18999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2023": 18999000,
+          "2024": 17479080,
+          "2025": 16080754
+        }
+      },
+      {
+        "ram": "6GB",
+        "storage": "256GB",
+        "base_price_idr": 20999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2023": 20999000,
+          "2024": 19319080,
+          "2025": 17773554
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 15 Pro",
+    "release_year": 2023,
+    "variants": [
+      {
+        "ram": "8GB",
+        "storage": "256GB",
+        "base_price_idr": 19999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2023": 19999000,
+          "2024": 18399080,
+          "2025": 16927154
+        }
+      },
+      {
+        "ram": "8GB",
+        "storage": "512GB",
+        "base_price_idr": 23499000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2023": 23499000,
+          "2024": 21619080,
+          "2025": 19889554
+        }
+      }
+    ]
+  },
+  {
+    "model": "iPhone 15 Pro Max",
+    "release_year": 2023,
+    "variants": [
+      {
+        "ram": "8GB",
+        "storage": "256GB",
+        "base_price_idr": 23999000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2023": 23999000,
+          "2024": 22079080,
+          "2025": 20312754
+        }
+      },
+      {
+        "ram": "8GB",
+        "storage": "512GB",
+        "base_price_idr": 27499000,
+        "depreciation_ratio": 0.92,
+        "prices_by_year": {
+          "2023": 27499000,
+          "2024": 25299080,
+          "2025": 23275154
+        }
+      }
+    ]
+  }
+]

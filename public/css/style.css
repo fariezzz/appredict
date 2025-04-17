@@ -1,0 +1,77 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Inter', sans-serif;
+    color: #212529;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+    font-size: 2rem;
+}
+
+.form-select, .form-control {
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.alert {
+    border-radius: 0.75rem;
+    padding: 1rem;
+    font-size: 0.95rem;
+}
+
+#predictionResult h4, #savingPlan h5 {
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+.list-group-item {
+    font-weight: 500;
+}
+
+img.img-fluid {
+    border-radius: 1.5rem;
+}
+
+#formContainer, #predictionResult, #savingPlan {
+    transition: all 0.5s ease;
+}
+
+#predictionResult,
+#savingPlan,
+#retrySection {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+}
+
+#predictionResult.show,
+#savingPlan.show,
+#retrySection.show {
+    opacity: 1;
+    transform: translateY(0);
+}
