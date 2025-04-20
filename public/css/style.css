@@ -20,7 +20,8 @@ body {
     font-size: 2rem;
 }
 
-.form-select, .form-control {
+.form-select,
+.form-control {
     border-radius: 0.75rem;
     padding: 0.75rem 1rem;
     font-size: 1rem;
@@ -38,26 +39,72 @@ body {
     border-color: #0a58ca;
 }
 
+#formRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#formCol {
+    width: 100%;
+    transition: width 0.5s ease;
+}
+
+#formCol.reduced-width {
+    width: 65%;
+}
+
+#imageCol {
+    width: 35%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.8s ease;
+}
+
+#imageCol.show {
+    display: flex;
+}
+
+#iphoneImage {
+    max-height: 300px;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+#iphoneImage.fade-in {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    #formRow {
+        flex-direction: column;
+    }
+
+    #formCol,
+    #imageCol {
+        width: 100% !important;
+    }
+}
+
 .alert {
     border-radius: 0.75rem;
     padding: 1rem;
     font-size: 0.95rem;
 }
 
-#predictionResult h4, #savingPlan h5 {
+#predictionResult h4,
+#savingPlan h5 {
     font-weight: 700;
     color: #0d6efd;
-}
-
-.list-group-item {
-    font-weight: 500;
 }
 
 img.img-fluid {
     border-radius: 1.5rem;
 }
 
-#formContainer, #predictionResult, #savingPlan {
+#formContainer,
+#predictionResult,
+#savingPlan {
     transition: all 0.5s ease;
 }
 
@@ -74,4 +121,47 @@ img.img-fluid {
 #retrySection.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+.about-page {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+}
+
+.about-page h1 {
+    font-weight: 700;
+}
+
+.about-page p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.about-page .fst-italic {
+    color: #6c757d;
+    margin-top: 20px;
+}
+
+.team-card {
+    background-color: white;
+    border-radius: 1.25rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.team-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #0d6efd;
 }
