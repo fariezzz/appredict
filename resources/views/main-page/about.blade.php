@@ -21,7 +21,7 @@
     </div>
 
     <div class="row justify-content-center">
-        <div class="col-md-5 col-lg-5 mb-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-5 col-lg-5 mb-4 d-flex align-items-stretch">
             <div class="team-card text-center p-3 w-100">
                 <img src="{{ asset('images/fariez.jpg') }}" class="team-photo mb-3" alt="Foto Fariez" style="object-position: 100% 80%;">
                 <h5>Muhammad Fariez Riziq Ilham</h5>
@@ -66,6 +66,4 @@
             </div>
         </div>
     </div>
-
-    <script>AOS.init();</script>
 @endsection

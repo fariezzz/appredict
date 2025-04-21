@@ -15,6 +15,10 @@ use App\Http\Controllers\ProfileController;
 */
 
 Route::get('/', function () {
+    return view('index');
+});
+
+Route::get('/prediksi', function () {
     return view('main-page.index');
 });
 

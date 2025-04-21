@@ -484,7 +484,7 @@
         ]
     },
     {
-        "model": "IPhone 14 Plus",
+        "model": "iPhone 14 Plus",
         "release_year": 2022,
         "variants": [
             {
@@ -520,7 +520,7 @@
         ]
     },
     {
-        "model": "IPhone 14 Pro",
+        "model": "iPhone 14 Pro",
         "release_year": 2022,
         "variants": [
             {
@@ -566,7 +566,7 @@
         ]
     },
     {
-        "model": "IPhone 14 Pro Max",
+        "model": "iPhone 14 Pro Max",
         "release_year": 2022,
         "variants": [
             {
@@ -612,7 +612,7 @@
         ]
     },
     {
-        "model": "Iphone 15",
+        "model": "iPhone 15",
         "release_year": 2023,
         "variants": [
             {
@@ -645,7 +645,7 @@
         ]
     },
     {
-        "model": "Iphone 15 Plus",
+        "model": "iPhone 15 Plus",
         "release_year": 2023,
         "variants": [
             {
@@ -678,7 +678,7 @@
         ]
     },
     {
-        "model": "Iphone 15 Pro",
+        "model": "iPhone 15 Pro",
         "release_year": 2023,
         "variants": [
             {
@@ -720,7 +720,7 @@
         ]
     },
     {
-        "model": "Iphone 15 Pro Max",
+        "model": "iPhone 15 Pro Max",
         "release_year": 2023,
         "variants": [
             {
@@ -728,7 +728,7 @@
                 "storage": "256 GB",
                 "prices_by_year": {
                     "2023": 24999000,
-                    "2024": 24499000,
+                    "2024": 23999000,
                     "2025": 23000000
                 }
             },
@@ -746,8 +746,8 @@
                 "storage": "1 TB",
                 "prices_by_year": {
                     "2023": 32999000,
-                    "2024": 32499000,
-                    "2025": 32000000
+                    "2024": 31250000,
+                    "2025": 30775000
                 }
             }
         ]

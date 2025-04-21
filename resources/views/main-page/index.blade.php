@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-    <div class="container mt-5">
+    <div class="container my-5">
         <h2 class="text-center mb-4"><i class="bi-phone"></i> Prediksi Harga iPhone</h2>
 
         <div class="row justify-content-center">
@@ -33,13 +33,12 @@
                                     <div class="mb-3">
                                         <div id="phonePrice" class="text-muted">Harga Tahun Ini: -</div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary w-100">Prediksi</button>
+                                    <button type="submit" class="btn btn-secondary w-100">Prediksi</button>
                                 </form>
                             </div>
                         </div>
                         <div align="center" id="imageCol">
-                            <img id="iphoneImage" src="{{ asset('/images/iphones/iphone.png') }}" alt="iPhone"
-                                class="img-fluid">
+                            <img id="iphoneImage" src="{{ asset('/images/iphones/iphone.png') }}" alt="iPhone" class="img-fluid iphone-img">
                         </div>
                     </div>
                 </div>
@@ -67,7 +66,7 @@
                 </div>
 
                 <div id="retrySection" class="fade-in d-none text-center my-5">
-                    <button class="btn btn-outline-primary" id="retryBtn">
+                    <button class="btn btn-outline-secondary" id="retryBtn">
                         <i class="bi-arrow-repeat"></i> Coba Lagi
                     </button>
                 </div>
@@ -108,8 +107,7 @@
                 option.textContent = `${variant.ram} / ${variant.storage}`;
                 variantSelect.appendChild(option);
             });
-            const iphoneImage = document.getElementById('iphoneImage');
-            iphoneImage.classList.remove('fade-in');
+            const iphoneImage = document.getElementById('iphoneImage'); 
             iphoneImage.src = `{{ asset('/images/iphones/${selectedModel.model}.png') }}`;
 
             const formCol = document.getElementById('formCol');
