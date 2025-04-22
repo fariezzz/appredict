@@ -13,11 +13,14 @@
                     <a class="nav-link fw-semibold text-white {{ Request::is('/prediksi') ? 'active' : '' }}" href="/prediksi">Prediksi</a>
                 </li>
                 <li class="nav-item me-4">
-                    <a class="nav-link fw-semibold text-white" href="https://wa.me/6281573681874?text=Hai,%20Appredict!" target="_blank" rel="noopener">Kontak</a>
+                    <a class="nav-link fw-semibold text-white {{ Request::is('/tentang') ? 'active' : '' }}" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal"
+                    data-bs-target="#helpModal">Bantuan</a>
                 </li>
                 <li class="nav-item me-4">
-                    <a class="nav-link fw-semibold text-white {{ Request::is('/tentang') ? 'active' : '' }}"
-                        href="/tentang">Tentang</a>
+                    <a class="nav-link fw-semibold text-white {{ Request::is('/tentang') ? 'active' : '' }}" href="/tentang">Tentang</a>
+                </li>
+                <li class="nav-item me-4">
+                    <a class="nav-link fw-semibold text-white" href="https://wa.me/6281573681874?text=Hai,%20Appredict!" target="_blank" rel="noopener">Kontak</a>
                 </li>
             </ul>
         </div>

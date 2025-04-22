@@ -77,7 +77,7 @@
                         <span id="typedBrand"></span>
                     </h1>                    
                     <p>Platform cerdas untuk prediksi harga iPhone di masa depan dan rencana menabung.</p>
-                    <a href="/prediksi" class="btn btn-secondary mt-4 btn-lg"><i class="bi bi-arrow-right-circle"></i>
+                    <a href="/prediksi" class="btn btn-secondary mt-2 btn-lg"><i class="bi bi-arrow-right-circle"></i>
                         Mulai Prediksi</a>
                 </div>
             </section>
