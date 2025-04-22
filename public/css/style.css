@@ -3,7 +3,6 @@
 html {
     scroll-behavior: smooth;
 }
-  
 
 .brand {
     font-family: "Special Gothic Condensed One", sans-serif !important;
@@ -89,6 +88,10 @@ body {
     opacity: 1;
 }
 
+.navbar-icons {
+    display: none;
+}
+
 @media (max-width: 768px) {
     #formRow {
         flex-direction: column;
@@ -97,6 +100,10 @@ body {
     #formCol,
     #imageCol {
         width: 100% !important;
+    }
+
+    .navbar-icons {
+        display: inline-block;
     }
 }
 

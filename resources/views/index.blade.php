@@ -114,6 +114,8 @@
     </div>
 </body>
 
+<script src="{{ asset('/bootstrap/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         new Typed("#typedBrand", {
