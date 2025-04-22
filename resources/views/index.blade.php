@@ -64,6 +64,16 @@
         footer a:hover {
             color: #ffffff;
         }
+
+        .navbar-icons {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .navbar-icons {
+                display: inline-block;
+            }
+        }
     </style>
 </head>
 
