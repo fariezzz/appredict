@@ -87,4 +87,6 @@
     </div>
 </section>
 
+@include('partials.modal')
+
 @endsection
