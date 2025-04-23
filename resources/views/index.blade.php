@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>Appredict</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="{{ asset('/bootstrap/vendor/twbs/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/bootstrap-icons/vendor/twbs/bootstrap-icons/font/bootstrap-icons.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <style>
@@ -26,7 +28,7 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #000000;
-            color: #ffffff
+            /* color: #000000 */
         }
 
         .hero {
@@ -92,7 +94,7 @@
                 </div>
             </section>
 
-            <section class="py-5">
+            <section class="py-5" style="color: white">
                 <div class="container">
                     <div class="row text-center">
                         <div class="col-md-6 my-3">
@@ -121,6 +123,7 @@
                 </div>
             </footer>
         </main>
+        @include('partials.modal')
     </div>
 </body>
 

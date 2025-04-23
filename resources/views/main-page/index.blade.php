@@ -78,41 +78,9 @@
                 </div>
             </div>
         </div>
-        <div class="modal fade" id="helpModal" tabindex="-1" aria-labelledby="helpModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="helpModalLabel"><i class="bi-info-circle"></i> Bantuan & Ketentuan</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
-                    </div>
-                    <div class="modal-body">
-                        <h6>📌 Ketentuan</h6>
-                        <ul>
-                            {{-- <li>Prediksi harga hanya tersedia untuk iPhone yang <strong>masih dijual secara resmi</strong>
-                                di Indonesia (seperti melalui iBox, Digimap, dll).</li> --}}
-                            {{-- <li>Model dengan harga second-hand <strong>tidak
-                                    disediakan</strong>.</li> --}}
-                            <li>Prediksi berdasarkan <strong>data historis</strong> dan estimasi rasio depresiasi, sehingga
-                                <strong>tidak 100% akurat</strong>.</li>
-                        </ul>
-
-                        <h6 class="mt-4">📖 Cara Menggunakan</h6>
-                        <ol>
-                            <li>Pilih model iPhone dari daftar.</li>
-                            <li>Pilih varian RAM dan storage yang tersedia.</li>
-                            <li>Masukkan tahun target untuk melihat estimasi harga di tahun tersebut.</li>
-                            <li>Hasil prediksi dan rencana menabung akan ditampilkan setelah submit.</li>
-                            <li>Klik <strong>"Coba Lagi"</strong> untuk mengulang prediksi lain.</li>
-                        </ol>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
+
+    @include('partials.modal')
 
     <script>
         let iphoneData = [];

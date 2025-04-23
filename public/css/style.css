@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -12,9 +13,10 @@ html {
 }
 
 body {
-    background-color: #f0f2f5;
-    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
     color: #212529;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
 .card {
@@ -119,9 +121,9 @@ body {
     color: #0d6efd;
 }
 
-img.img-fluid {
+/* img.img-fluid {
     border-radius: 1.5rem;
-}
+} */
 
 .iphone-img {
     width: 300px;
@@ -152,96 +154,57 @@ img.img-fluid {
     transform: translateY(0);
 }
 
-.about-page {
-    background-color: #f9f9f9;
-    padding: 40px;
-    border-radius: 1.5rem;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease-in-out;
-}
-
-.about-page h1 {
-    font-weight: 700;
-}
-
-.about-page p {
-    font-size: 1.1rem;
-    color: #333;
-    margin-bottom: 1rem;
-}
-
-.about-page .fst-italic {
-    color: #6c757d;
-    margin-top: 20px;
-}
-
 .team-card {
-    background-color: white;
-    border-radius: 1.25rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    border-radius: 0 !important;
+    box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.team-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    height: 360px;
+    width: 260px;
+    overflow: hidden;
+    position: relative;
 }
 
 .team-photo {
-    width: 120px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid #0d6efd;
+    object-position: center;
+    display: block;
+    border-radius: 0% !important;
 }
 
-.select2-container--default .select2-selection--single,
-.select2-selection .select2-selection--single {
-    border: 1px solid #d2d6de !important;
-    border-radius: 0 !important;
-    padding: 6px 12px !important;
-    height: 34px !important;
+.team-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 1rem;
+    transition: background 0.3s ease;
 }
 
-.select2-container--default .select2-selection--single {
-    background-color: #fff !important;
-    border: 1px solid #aaa !important;
-    border-radius: 4px !important;
+.team-card:hover .team-overlay {
+    background: rgba(0, 0, 0, 0.75);
 }
 
-.select2-container .select2-selection--single {
-    box-sizing: border-box !important;
-    cursor: pointer !important;
-    display: block !important;
-    height: 28px !important;
-    user-select: none !important;
-    -webkit-user-select: none !important;
+
+.about-page p {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.select2-container .select2-selection--single .select2-selection__rendered {
-    padding-right: 10px !important;
-    padding-left: 0 !important;
-    height: auto !important;
-    margin-top: -3px !important;
+.modal-content {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 400 !important;
 }
 
-.select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #444 !important;
-    line-height: 28px !important;
+form,
+form * {
+    font-weight: 600 !important;
 }
 
-.select2-container--default .select2-selection--single,
-.select2-selection .select2-selection--single {
-    border: 1px solid #d2d6de !important;
-    border-radius: 0 !important;
-    padding: 6px 12px !important;
-    height: 40px !important;
-}
-
-.select2-container--default .select2-selection--single .select2-selection__arrow {
-    height: 26px !important;
-    position: absolute !important;
-    top: 6px !important;
-    right: 1px !important;
-    width: 20px !important;
+.bg-primary {
+    background-color: #000000 !important;
 }
