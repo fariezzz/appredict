@@ -71,7 +71,7 @@
                     <canvas id="priceChart" height="100"></canvas>
                 </div>
 
-                <div id="retrySection" class="fade-in d-none text-center my-5">
+                <div id="retrySection" class="fade-in d-none text-center mt-5">
                     <button class="btn btn-outline-secondary" id="retryBtn">
                         <i class="bi-arrow-repeat"></i> Coba Lagi
                     </button>
