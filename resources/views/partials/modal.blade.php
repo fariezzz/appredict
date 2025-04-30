@@ -11,8 +11,8 @@
                 <h6>📌 Ketentuan</h6>
                 <ul class="text-muted">
                     <li>
-                        Prediksi berdasarkan <strong>data historis</strong> dan estimasi rasio depresiasi,
-                        sehingga <strong>tidak 100% akurat</strong>.
+                        Prediksi berdasarkan <strong>data historis</strong> dan <strong>estimasi rasio depresiasi</strong>,
+                        sehingga <strong>tidak 100% akurat</strong>, terutama untuk harga <strong>iPhone seri 13 kebawah</strong>.
                     </li>
                 </ul>
 
