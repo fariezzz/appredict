@@ -8,11 +8,17 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
             </div>
             <div class="modal-body">
-                <h6>📌 Ketentuan</h6>
+                <h6>📌 <strong class="text-danger">Informasi Penting Sebelum Menggunakan Aplikasi</strong></h6>
                 <ul class="text-muted">
                     <li>
                         Prediksi berdasarkan <strong>data historis</strong> dan <strong>estimasi rasio depresiasi</strong>,
                         sehingga <strong>tidak 100% akurat</strong>, terutama untuk harga <strong>iPhone seri 13 kebawah</strong>.
+                    </li>
+                    <li>
+                        Rencana menabung dihasilkan dari <strong>estimasi</strong> berdasarkan <strong>harga target tahun</strong>. 
+                    </li>
+                    <li>
+                        Nominal tabungan direncanakan dalam bentuk <strong>angka bulat</strong> yang merupakan <strong>kelipatan dari 1.000</strong>.
                     </li>
                 </ul>
 
