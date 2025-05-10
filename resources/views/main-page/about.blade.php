@@ -6,7 +6,7 @@
     <div class="container">
         <h1 class="display-5 fw-bold">Tentang Kami</h1>
         <p class="lead mt-3" style="font-size: 18px">
-            Appredict adalah platform online pertama yang membandingkan berbagai opsi harga iPhone
+            Appredict adalah sebuah platform online yang membandingkan berbagai opsi harga iPhone
             berdasarkan tren historis untuk membantu Anda mengambil keputusan finansial yang lebih bijak.
         </p>
     </div>
