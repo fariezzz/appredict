@@ -33,7 +33,7 @@
                                     <div class="mb-3">
                                         <label for="targetYear" class="form-label">Tahun Target</label>
                                         <input type="number" class="form-control" id="targetYear"
-                                            placeholder="Contoh: 2026" min="2025" max="2035" required>
+                                            placeholder="Contoh: 2026" required>
                                     </div>
                                     <div class="mb-3">
                                         <div id="phonePrice" class="text-muted">Harga Tahun Ini: -</div>
@@ -165,6 +165,18 @@
             e.preventDefault();
 
             const targetYear = parseInt(document.getElementById('targetYear').value);
+
+            if (targetYear < 2026 || targetYear > 2030) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Tahun tidak valid',
+                    text: 'Tahun target harus antara 2026 sampai 2030.',
+                    confirmButtonColor: '#d33',
+                    confirmButtonText: 'Tutup',
+                });
+                return;
+            }
+
             const variantData = JSON.parse(variantSelect.value);
             const prices = variantData.prices_by_year;
             const yearList = Object.keys(prices).map(Number).sort();

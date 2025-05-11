@@ -20,6 +20,9 @@
                     <li>
                         Nominal tabungan direncanakan dalam bentuk <strong>angka bulat</strong> yang merupakan <strong>kelipatan dari 1.000</strong>.
                     </li>
+                    <li>
+                        Pengguna hanya dapat menginputkan <strong>tahun target 2026</strong> sampai <strong>2030</strong>.
+                    </li>
                 </ul>
 
                 <h6 class="mt-4">📖 Cara Menggunakan</h6>
