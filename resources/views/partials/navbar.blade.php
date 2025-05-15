@@ -15,7 +15,7 @@
                     <a class="ms-4 nav-link fw-semibold text-white {{ Request::is('/prediksi') ? 'active' : '' }}" href="/prediksi"><i class="bi bi-graph-up me-1 navbar-icons"></i> Prediksi</a>
                 </li>
                 <li class="nav-item me-4">
-                    <a class="ms-4 nav-link fw-semibold text-white {{ Request::is('/histori') ? 'active' : '' }}" href="/histori"><i class="bi bi-clock-history me-1 navbar-icons"></i> Histori</a>
+                    <a class="ms-4 nav-link fw-semibold text-white {{ Request::is('/histori') ? 'active' : '' }}" href="/riwayat"><i class="bi bi-clock-history me-1 navbar-icons"></i> Riwayat</a>
                 </li>
                 <li class="nav-item me-4">
                     <a class="ms-4 nav-link fw-semibold text-white" data-bs-toggle="modal" data-bs-target="#helpModal"><i class="bi bi-question-circle me-1 navbar-icons"></i> Bantuan</a>

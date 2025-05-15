@@ -24,6 +24,6 @@ Route::get('/prediksi', function () {
 
 Route::get('/tentang', [ProfileController::class, 'index']);
 
-Route::get('/histori', function () {
+Route::get('/riwayat', function () {
     return view('history.index');
 });

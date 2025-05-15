@@ -23,6 +23,9 @@
                     <li>
                         Pengguna hanya dapat menginputkan <strong>tahun target 2026</strong> sampai <strong>2030</strong>.
                     </li>
+                    <li>
+                        Hasil prediksi akan disimpan dalam <strong>riwayat</strong> dan dapat diakses kembali di halaman <strong>Riwayat</strong>.
+                    </li>
                 </ul>
 
                 <h6 class="mt-4">📖 Cara Menggunakan</h6>
