@@ -113,6 +113,8 @@
         </div>
     </div>
 
+    @include('partials.modal')
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const predictions = JSON.parse(localStorage.getItem('iphonePredictions') || '[]');
