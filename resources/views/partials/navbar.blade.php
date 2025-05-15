@@ -15,14 +15,17 @@
                     <a class="ms-4 nav-link fw-semibold text-white {{ Request::is('/prediksi') ? 'active' : '' }}" href="/prediksi"><i class="bi bi-graph-up me-1 navbar-icons"></i> Prediksi</a>
                 </li>
                 <li class="nav-item me-4">
+                    <a class="ms-4 nav-link fw-semibold text-white {{ Request::is('/histori') ? 'active' : '' }}" href="/histori"><i class="bi bi-clock-history me-1 navbar-icons"></i> Histori</a>
+                </li>
+                <li class="nav-item me-4">
                     <a class="ms-4 nav-link fw-semibold text-white" data-bs-toggle="modal" data-bs-target="#helpModal"><i class="bi bi-question-circle me-1 navbar-icons"></i> Bantuan</a>
                 </li>
                 <li class="nav-item me-4">
                     <a class="ms-4 nav-link fw-semibold text-white {{ Request::is('/tentang') ? 'active' : '' }}" href="/tentang"><i class="bi bi-info-circle me-1 navbar-icons"></i> Tentang</a>
                 </li>
-                <li class="nav-item me-4">
+                {{-- <li class="nav-item me-1">
                     <a class="ms-4 nav-link fw-semibold text-white" href="https://wa.me/6281573681874?text=Hai,%20Appredict!" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1 navbar-icons"></i> Kontak</a>
-                </li>
+                </li> --}}
             </ul>
         </div>
     </div>

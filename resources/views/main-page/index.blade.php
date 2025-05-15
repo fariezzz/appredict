@@ -161,6 +161,25 @@
             return count > 0 ? totalRatio / count : 0.90;
         }
 
+        function savePrediction(data) {
+            // Get existing predictions or initialize empty array
+            let predictions = JSON.parse(localStorage.getItem('iphonePredictions') || '[]');
+
+            // Add timestamp to the prediction data
+            data.timestamp = new Date().toISOString();
+
+            // Add the new prediction to the beginning of the array (most recent first)
+            predictions.unshift(data);
+
+            // Limit to last 10 predictions to avoid excessive storage
+            if (predictions.length > 10) {
+                predictions = predictions.slice(0, 10);
+            }
+
+            // Save back to localStorage
+            localStorage.setItem('iphonePredictions', JSON.stringify(predictions));
+        }
+
         predictionForm.addEventListener('submit', function(e) {
             e.preventDefault();
 
@@ -199,6 +218,22 @@
             document.getElementById('perWeek').textContent = perWeek.toLocaleString('id-ID');
             document.getElementById('perMonth').textContent = perMonth.toLocaleString('id-ID');
             document.getElementById('perYear').textContent = perYear.toLocaleString('id-ID');
+
+            const selectedModel = iphoneData.find(item => item.model === modelSelect.value);
+            savePrediction({
+                model: selectedModel.model,
+                variant: `${variantData.ram} / ${variantData.storage}`,
+                currentYear: baseYear,
+                currentPrice: basePrice,
+                targetYear: targetYear,
+                predictedPrice: predictedPrice,
+                savingPlan: {
+                    perDay,
+                    perWeek,
+                    perMonth,
+                    perYear
+                }
+            });
 
             const releaseDiff = targetYear - variantData.release_year;
             const alertContainer = document.getElementById('alertContainer');
@@ -269,6 +304,16 @@
                     }
                 }
             });
+
+            // Swal.fire({
+            //     icon: 'success',
+            //     title: 'Prediksi Disimpan',
+            //     text: 'Prediksi berhasil disimpan! Lihat riwayat di halaman History.',
+            //     confirmButtonColor: '#198754',
+            //     confirmButtonText: 'OK',
+            //     timer: 3000,
+            //     timerProgressBar: true
+            // });
         });
 
         document.getElementById('retryBtn').addEventListener('click', function() {
