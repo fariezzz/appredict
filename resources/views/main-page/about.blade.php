@@ -52,7 +52,7 @@
                         <img src="{{ asset('images/raya.jpg') }}" class="team-photo team-raya"
                             alt="Moh Raya Alfareza Alban">
                         <div class="team-overlay text-center">
-                            <h5 class="mb-1">Moh Raya Alfareza A</h5>
+                            <h5 class="mb-1">Moh Raya Alfareza Alban</h5>
                             <p class="small mb-0">247006111133<br>Universitas Siliwangi</p>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                     <div class="team-card">
                         <img src="{{ asset('images/dwiki.jpg') }}" class="team-photo team-dwiki" alt="Dwiki Muhammad Wasfi">
                         <div class="team-overlay text-center">
-                            <h5 class="mb-1">Dwiki Muhammad W</h5>
+                            <h5 class="mb-1">Dwiki Muhammad Wasfi</h5>
                             <p class="small mb-0">247006111136<br>Universitas Siliwangi</p>
                         </div>
                     </div>
