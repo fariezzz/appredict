@@ -160,9 +160,22 @@ body {
     box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     height: 360px;
-    width: 260px;
+    width: 240px;
     overflow: hidden;
     position: relative;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+@media (min-width: 1200px) {
+    .col-xl-5ths {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
 }
 
 .team-photo {
