@@ -26,6 +26,7 @@
                     <li>
                         Hasil prediksi akan disimpan dalam <strong>riwayat</strong> dan dapat diakses kembali di halaman <strong>Riwayat</strong>.
                     </li>
+                    <li>Data riwayat akan terhapus jika anda menghapus data aplikasi browser anda.</li>
                 </ul>
 
                 <h6 class="mt-4">📖 Cara Menggunakan</h6>
