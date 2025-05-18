@@ -11,7 +11,7 @@
                 <h6>📌 <strong class="text-danger">Informasi Penting Sebelum Menggunakan Aplikasi</strong></h6>
                 <ul class="text-muted">
                     <li>
-                        Prediksi berdasarkan <strong>data historis</strong> dan <strong>rata-rata rasio depresiasi tahun rilis hingga tahun 2025</strong>,
+                        Prediksi berdasarkan <strong>data historis</strong> dan <strong>rata-rata rasio depresiasi tahun rilis hingga tahun 2025</strong>, dihitung menggunakan konsep <strong>Deret Geometri</strong>
                         sehingga <strong>tidak 100% akurat</strong>, terutama untuk harga <strong>iPhone seri 13 kebawah</strong>.
                     </li>
                     <li>
