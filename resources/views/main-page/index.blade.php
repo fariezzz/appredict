@@ -162,21 +162,16 @@
         }
 
         function savePrediction(data) {
-            // Get existing predictions or initialize empty array
             let predictions = JSON.parse(localStorage.getItem('iphonePredictions') || '[]');
 
-            // Add timestamp to the prediction data
             data.timestamp = new Date().toISOString();
 
-            // Add the new prediction to the beginning of the array (most recent first)
             predictions.unshift(data);
 
-            // Limit to last 10 predictions to avoid excessive storage
             if (predictions.length > 10) {
                 predictions = predictions.slice(0, 10);
             }
 
-            // Save back to localStorage
             localStorage.setItem('iphonePredictions', JSON.stringify(predictions));
         }
 
